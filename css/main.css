@@ -1,0 +1,161 @@
+.app-wrapper-web .app {
+     width: 100% !important;
+     height: 100% !important;
+     top: 0 !important;
+}
+#app { background-color: rgba(0, 0, 0, .7)!important; }
+ :root {
+     --select: #11A600 !important;
+     --main: #ffffff!important;
+}
+ ::selection {
+     background-color: var(--select)!important;
+}
+ ::-moz-selection {
+     background-color: var(--select)!important;
+}
+ body {
+     background-color: initial!important;
+     background-attachment: fixed!important;
+}
+ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select, option, textarea, #input-chatlist-search, ._16RnB {
+     font-family: Roboto, sans-serif!important;
+     color: var(--main)!important;
+}
+ html[dir] ._3hV1n {
+     background-color: var(--main)!important;
+}
+ span:not([data-icon]) svg g path[fill] {
+     fill: var(--select)!important;
+}
+ span:not([data-icon]) svg path[fill] {
+     fill: var(--main)!important;
+}
+ [data-icon=search-alt] svg path[fill], [data-icon=chat] svg path[fill], [data-icon=clip] svg path[fill], [data-icon=menu] svg path[fill], [data-icon=smiley] svg path[fill], [data-icon=ptt] svg path[fill], [data-icon=hide] svg path[fill], [data-icon=down-context] svg path, [data-icon=send] svg path[fill], [data-icon=audio-play] svg path[fill], [data-icon=x-alt-light] svg path[fill] {
+     fill: var(--main)!important;
+     opacity: 1!important;
+     fill-opacity: 1!important;
+     transition: all .25s ease-in-out!important;
+}
+ svg g[fill], [role="button"]:hover span svg path[fill], span[data-icon=msg-dblcheck-ack] svg path[fill], span[data-icon=status-dblcheck-ack] svg path[fill], span[data-icon=send-light] svg path[fill] {
+     fill: var(--select)!important;
+}
+ .spinner-path {
+     stroke: var(--select)!important;
+}
+ ._2EZ_m {
+     padding: 1rem!important;
+     background-color: #fff!important;
+}
+ #startup, #initial_startup, .app-wrapper::after, html[dir] ._3dqpi, html[dir] ._3auIg, html[dir] ._3CPl4, html[dir] ._2MSJr, html[dir] ._1NrpZ, html[dir] .gQzdc::after, html[dir] ._3qlW9, html[dir] ._1GX8_, html[dir] ._3AwwN, html[dir] ._1WliW, html[dir] ._3AwwN::after, html[dir] ._3dGYA, html[dir] ._3oju3, html[dir] ._2bXVy, html[dir] ._1CSx9, html[dir] ._1CRb5, html[dir] ._1CkkN, html[dir] ._1XwnX, input, header, .gQzdc._3sdhb, html[dir] ._39pS-, html[dir] ._1AKfk, html[dir] ._2zkF3, html[dir] ._1qdni, html[dir] .R0lQ6, html[dir] .mnt6B, html[dir] .bZ3B9, html[dir] ._1iMEz, html[dir] .OMzAb, ._1VD7W, html[dir] ._3b2Cf, html[dir] .MS-DH::before, html[dir] .MS-DH._2-mCk, html[dir] ._2lwig._2nFG1, html[dir] .MS-DH._2-mCk:before, html[dir] .MS-DH._2-mCk:after, html[dir] .IKxkY ._12xX7, html[dir] .gQzdc:after, html[dir] .bZ3B9, html[dir] ._1GX8_, html[dir] .ZwkQK, html[dir] ._2U_Zc::before, html[dir] ._3ETD3, html[dir] ._1mq8g, .pane-preview, html[dir] ._2flas, html[dir] .Um7sh, html[dir] ._66JgU, html[dir] ._1lIXT, html[dir] ._2EXPL, html[dir] ._18wuJ, html[dir] ._3FAwT, .media-collection, html[dir] ._3nuGo {
+     background-color: initial!important;
+     background-image: none!important;
+}
+ .message-in .tail-container {
+     background: none !important;
+}
+ .message-out .tail-container {
+     background: none !important;
+}
+ html[dir="ltr"] ._1i1U7.jZ4tp, html[dir="ltr"] ._2DNgV._1i1U7 {
+     background-image: none!important;
+}
+ html[dir] ._3_R6X, .message-in, .message-out, html[dir] ._2uLFU, progress, #side, ._3q4NP._2yeJ5, html[dir] ._3AwwN, footer, ._2uLFU._3aCko.Qap-N, html[dir] ._3D9Wd, .WX_XW, ._2Par4, html[dir] ._3gUiM, html[dir] ._1CnF3, html[dir] ._1sGGp._2nFG1, html[dir] .Uukb4, option, html[dir] ._2NbD3, html[dir] ._2EYZY, html[dir="ltr"] ._1fkhx, .L89LI, html[dir] ._2Gki6, html[dir] ._7RNZ3, html[dir] ._2CORf ._12xX7, ._3BCzw._2jmD6, html[dir] ._2fq0t, html[dir] ._1ypOz {
+     background-color: rgba(0, 0, 0, .5)!important;
+}
+ .pluggable-input-placeholder, .vdXUe, ._2cLHw, ._1wjpf._3NFp9, .Cpiae, ._3T2VG, ._1bX-5, .O90ur, ._39LWd {
+     color: rgba(255, 255, 255, .5)!important;
+}
+/* [class|=color-] span {
+     color: initial!important;
+}
+*/
+ [class|=bg-color-] {
+     background-color: initial!important;
+}
+ .rotate-focus-container, html[dir] ._1zcz2 {
+     background-color: rgba(0, 0, 0, .95)!important;
+}
+ html[dir] ._2EXPL:hover ._3j7s9, html[dir] ._3j7s9, html[dir] ._2EXPL._1f1zm::after, html[dir] ._2EXPL:hover ._3j7s9, html[dir] ._2EXPL._3df_h ._3j7s9, html[dir] ._2EXPL:hover::after, input, html[dir] ._2MSJr, html[dir] ._14oqx + ._14oqx .DcItJ, html[dir] ._3YwRO, html[dir="ltr"] ._3AwwN, html[dir="ltr"] .three ._2yeJ5, html[dir] ._1CkkN + ._1CkkN ._10xEB, html[dir] ._1CkkN:hover + ._1CkkN ._10xEB, select, option, html[dir] ._3hhmj, html[dir="ltr"] ._1fkhx, html[dir] ._1mq8g, html[dir] ._3_3Rs, html[dir] ._3Qh77, .chat-body, html[dir] ._2bXVy {
+     border: 0!important;
+}
+ .message-system, html[dir] ._28zBA._14ou2, html[dir] ._39uZ2, html[dir] ._1qXED, ._2dwaZ, html[dir] ._298R6, html[dir] ._2FsQ8, html[dir] .PNlAR, html[dir] .PNlAR:hover, html[dir] ._3b2Cf::before, html[dir] ._3v_lq.j5Hcb, html[dir] .MwhOx, html[dir] ._1UvQg, .L89LI, html[dir] .OUeyt, html[dir] .Zq3Mc {
+     background-color: var(--select)!important;
+}
+ html[dir] ._28zBA._14ou2 {
+     transition: all .05s!important;
+}
+ html[dir] ._31WRs ._1DTd4, html[dir] ._3qlW9::after, ._1VD7W {
+     border-color: var(--select)!important;
+}
+ progress[value]::-moz-progress-bar, progress[value]::-moz-progress-value {
+     background-color: var(--select)!important;
+}
+ progress[value]::-webkit-progress-bar, progress[value]::-webkit-progress-value {
+     background-color: var(--select)!important;
+}
+ ._3LL06 {
+     color: var(--main)!important;
+}
+ ._1sYdX {
+     color: var(--select)!important;
+}
+ .dropdown, html[dir] ._2uLFU, html[dir] ._1ArIP {
+     border-radius: 6px!important;
+     box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 1);
+}
+ html.js.adownload.cssanimations.csstransitions.webp.webp-alpha.webp-animation.webp-lossless.wf-opensans-n4-active.wf-opensans-n6-active.wf-roboto-n3-active.wf-roboto-n4-active.wf-roboto-n5-active.wf-active body.web div#app div.app-wrapper.app-wrapper-web.app-wrapper-main div.app._3dqpi.three div.MZIyP div._3q4NP._2yeJ5 span div.rotate-focus-container span.flow-drawer-container div._2fq0t.copyable-area div._2sNbV span._3eST_ div.rcDLF div._3eST_ div._15JI9 div.MS-DH div._36KaO div.message.tail-override-left.message-container.message-out span.tail-container, hr, html[dir] ._1FKgS::after {
+     display: none!important;
+}
+ html[dir="ltr"] ._3AwwN {
+     box-shadow: 0 7px 6px 0 rgba(0, 0, 0, .2) 
+}
+ html[dir] ._2jVLL {
+     box-shadow: 0 -7px 6px 0 rgba(0, 0, 0, .2) 
+}
+ .intro-image, [data-asset-intro-image] {
+     background: url(https://i.imgur.com/bstq1Iw.png) center center no-repeat!important;
+     background-size: contain!important 
+}
+ .pane-chat-tile {
+     background-image:none!important;
+}
+ .infinite-list-item, .chatlist-panel-search, html[dir] ._2wP_Y {
+     border-bottom:1px solid rgba(255, 255, 255, .1)!important;
+}
+ .app-wrapper-web ._3dqpi {
+     height: 100%!important;
+     top: 0!important;
+     width: 100%!important;
+}
+ html[dir] ._2wP_Y {
+     transition: all .25s ease-in-out;
+}
+ html[dir] ._2wP_Y:hover {
+     background: rgba(255, 255, 255, .05)!important;
+}
+ html[dir] ._2EXPL._1f1zm {
+     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAABCAYAAACSeIPdAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAA4SURBVHjaYmRgYChlYGD4D8X/sLCx0f+I5MPE/qLR//BgmLp/eNTisxcbG5ff0NlYMQAAAP//AwB9V0gDqUk7mAAAAABJRU5ErkJggg==')!important;
+     background-repeat: repeat-y!important;
+     background-color: rgba(255, 255, 255, .04)!important;
+     transition: all .3s ease-in-out!important 
+}
+ html[dir] ._2EXPL.CxUIE {
+     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAAABCAYAAACSeIPdAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAA6SURBVHjaYvz//38cAwPDfyj+xwAB/5DEkOXwsXHR6GL/iNBHivn/iHAjMf5jQJJHFvsPAAAA//8DAGTkRgBgXTXXAAAAAElFTkSuQmCC')!important;
+     background-repeat: repeat-y!important;
+     background-color: rgba(255, 255, 255, .1)!important 
+}
+ .message-system, html[dir] .Zq3Mc {
+     text-shadow: none!important;
+     box-shadow: none!important;
+}
+ ._1pJVs span {
+     -webkit-box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1) !important;
+     -moz-box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1) !important;
+     box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1) !important;
+     border-radius: 100%!important;
+     transition: all .025s ease-in-out;
+}
+ ._1pJVs span:hover {
+     transform: scale(1.05, 1.05)!important;
+}
